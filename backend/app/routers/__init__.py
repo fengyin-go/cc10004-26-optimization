@@ -19,10 +19,11 @@ from app.routers import pipeline as router_pipeline
 from app.routers import datastore as router_datastore
 from app.routers import forecast as router_forecast
 from app.routers import segment as router_segment
+from app.routers import placement as router_placement
 from app.routers import scheduler as router_scheduler
 from app.routers import notify as router_notify
 from app.routers import cache as router_cache
 from app.routers import tag as router_tag
 from app.routers import share as router_share
 
-ROUTERS = [router_query, router_chart, router_source, router_aggregate, router_filter, router_reportgen, router_anomaly, router_drill, router_compare, router_pipeline, router_datastore, router_forecast, router_segment, router_scheduler, router_notify, router_cache, router_tag, router_share]
+ROUTERS = [router_query, router_chart, router_source, router_aggregate, router_filter, router_reportgen, router_anomaly, router_drill, router_compare, router_pipeline, router_datastore, router_forecast, router_segment, router_placement, router_scheduler, router_notify, router_cache, router_tag, router_share]

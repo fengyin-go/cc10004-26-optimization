@@ -14,6 +14,7 @@ const Pipeline = () => import('@/views/pipeline/index.vue')
 const Datastore = () => import('@/views/datastore/index.vue')
 const Forecast = () => import('@/views/forecast/index.vue')
 const Segment = () => import('@/views/segment/index.vue')
+const Placement = () => import('@/views/placement/index.vue')
 const Scheduler = () => import('@/views/scheduler/index.vue')
 const Notify = () => import('@/views/notify/index.vue')
 const Cache = () => import('@/views/cache/index.vue')
@@ -37,6 +38,7 @@ const router = createRouter({
     { path: '/datastore', name: 'datastore', component: Datastore },
     { path: '/forecast', name: 'forecast', component: Forecast },
     { path: '/segment', name: 'segment', component: Segment },
+    { path: '/placement', name: 'placement', component: Placement },
     { path: '/scheduler', name: 'scheduler', component: Scheduler },
     { path: '/notify', name: 'notify', component: Notify },
     { path: '/cache', name: 'cache', component: Cache },
